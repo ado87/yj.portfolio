@@ -1,0 +1,57 @@
+@import url('./reset.css');
+
+body {
+    background: #e6e6e6;
+    width: 100%;
+    height: 100%;
+}
+header {
+    position: fixed;
+    width: 250px;
+    height: 1000px;
+    overflow: hidden;
+    background: #5b92a6;
+    z-index: 999;
+}
+header > h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+header > h1 a { color: #fff;}
+header > .titlte {
+    width: 100%;
+    margin-top: 50px;
+}
+header > .title > a {
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    text-align: left;
+}
+header > .title > a {
+    font-size: 15px;
+    color: #fff;
+}
+header > .title > a:hover {
+    color: #216d7b;
+    border-bottom: 1px solid #216d7b;
+}
+#content {
+    width: 1200px;
+    overflow: hidden;
+}
+#content > ul > li {
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    width: 1600px;
+    /* background: #ccc; */
+}
+#content > ul > li h1 {
+    margin-bottom: 30px;
+    color: #216d7b;
+    font-weight: 800;
+    font-size: 35px;
+}
