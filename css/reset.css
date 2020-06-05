@@ -2,7 +2,10 @@
     margin: 0; padding: 0;
     font-family: 'Nanum Gothic', sans-serif;
 }
+
 body {
+    overflow: auto;
+    /* height: 100%; */
     font-family: 'Nanum Gothic', sans-serif;
 }
 a {text-decoration: none;}
