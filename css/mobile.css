@@ -2,7 +2,7 @@
 
 header {
     /* width: 100%; */
-    height: 700px;
+    height: 500px;
     padding: 50px;
     margin: 0 auto;
     background: #333;
@@ -44,12 +44,13 @@ header > .gnb > ul > li a {
 }
 #content {
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     background: #d1d1d9;
     overflow: hidden;
 }
 #content > .design {
-    height: 100%;
+    height: auto;
+    margin: 0 auto;
     overflow: hidden;
 }
 #content > .design > h1 {
@@ -63,13 +64,14 @@ header > .gnb > ul > li a {
     margin-top: 50px;
 }
 #content > .design > ul > li {
-    width: 500px; height: 300px;
+    width: 300px; height: 200px;
     position: relative;
+    margin: 0 auto;
     overflow: hidden;
-    float: left;
+    /* float: left; */
     margin-bottom: 25px;
-    margin-left: 20px;
-    left: 150px;
+    /* margin-left: 20px; */
+    /* left: 150px; */
     border-radius: 15px;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
 }
@@ -82,7 +84,7 @@ header > .gnb > ul > li a {
     background: rgba(44,96,107,0.8);
     display: none;
     text-align: center;
-    line-height: 300px;
+    line-height: 200px;
     font-size: 18px;
     color: #fff;
 }
@@ -90,7 +92,7 @@ header > .gnb > ul > li a {
 
 #content > .design > ul > li img { 
     transition: 0.5s;
-    width: 500px;
+    width: 300px;
 }
 #content > .design > ul > li:hover img {
     transform: scale(1.2);
@@ -98,20 +100,17 @@ header > .gnb > ul > li a {
 
 .visual {
     width: 100%;
-    height: 350px;
-    overflow: hidden;
+    height: 200px;
     background: url('../image/visual.jpg') 0 0 no-repeat fixed;
 }
 
 #about {
     overflow: hidden;
     width: 100%;
-    height: 700px;
+    height: 960px;
     background: #d1d1d9;
 }
-#about > .info {
-    overflow: hidden;
-}
+
 #about > .info > h1 {
     text-align: center;
     font-size: 50px;
@@ -120,17 +119,17 @@ header > .gnb > ul > li a {
 }
 
 #about > .info > .left {
-    width: 45%;
-    height: 500px;
-    float: left;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    /* float: left; */
     margin-top: 50px;
+    /* background: #000; */
 }
 #about > .info > .left > div {
     width: 300px;
     height: 300px;
     margin: 0 auto;
-    margin-right: 70px;
-    margin-top: 90px;
     background: #fff;
     border-radius: 50%;
     overflow: hidden;
@@ -141,16 +140,16 @@ header > .gnb > ul > li a {
     margin-left: -10px;
 }
 #about > .info > .right {
-    width: 55%;
-    height: 500px;
-    float: right;
-    margin-top: 20px;
+    width: 100%;
+    height: 1000px;
     /* background: #ccc; */
+    overflow: hidden;
 }
 #about > .info > .right > .other {
     /* background: #fff; */
     padding: 10px;
-    top: 180px;
+    margin-top: 10px;
+    text-align: center;
     position: relative;
 } 
 #about > .info > .right > .other > h4 {
@@ -163,8 +162,8 @@ header > .gnb > ul > li a {
     line-height: 25px;
 }
 #about > .info > .right > .skill {
-    position: relative;
-    top: -50px; left: 250px;
+    text-align: center;
+    margin-top: 40px;
 }
 #about > .info > .right > .skill h3 {
     margin-bottom: 20px;
@@ -179,8 +178,8 @@ header > .gnb > ul > li a {
     transform: scale(1.2);
 }
 #about > .info > .right > .interest {
-    position: relative;
-    left: 250px;
+    text-align: center;
+    margin-top: 20px;
 }
 #about > .info > .right > .interest > h3 {
     margin-bottom: 20px;

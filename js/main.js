@@ -1,7 +1,7 @@
 $(function(){
     $('.info').css('display', 'none')
 
-    $('.title a').on('click', function(){
+    $('.title > ul > li a').on('click', function(){
         $(cat_name).css('color', 'black')
         var cat_name = $(this).attr('class');
         var i = $(this).index()
@@ -10,4 +10,8 @@ $(function(){
 
         $('.info').eq(i).fadeIn(500)
     })
+
+    $('header button').on('click', function(){
+        $('.title').slideToggle()
+    });
 });

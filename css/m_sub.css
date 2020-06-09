@@ -7,33 +7,42 @@ body {
 }
 header {
     position: fixed;
-    width: 250px;
-    height: 1000px;
-    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    /* overflow: hidden; */
     background: #5b92a6;
     z-index: 999;
 }
 header > h1 {
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 45px;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 100px;
 }
 header > h1 a { color: #fff;}
 header > button {
-    display: none;
+    position: absolute;
+    right: 20px;
+    top: 37px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    color: #fff;
 }
 header > .titlte {
     width: 100%;
-    margin-top: 50px;
 }
-header > .title > ul > li a {
-    display: inline-block;
+header > .title > ul {
+    background: #819398;
+}
+header > .title > ul > li {
+    width: 250px;
     padding: 20px;
-    margin-bottom: 30px;
+}
+
+header > .title > ul > li a {
+    display: block;
     margin-left: 20px;
     text-align: left;
-}
-header > .title > ul > li a {
     font-size: 15px;
     color: #fff;
 }
@@ -42,14 +51,15 @@ header > .title > ul > li a:hover {
     border-bottom: 1px solid #216d7b;
 }
 #content {
-    width: 1200px;
+    width: 100%;
     overflow: hidden;
 }
 #content > ul > li {
     position: absolute;
-    left: 300px;
-    top: 50px;
-    width: 1600px;
+    /* left: 300px; */
+    top: 150px;
+    left: 10px;
+    width: 100%;
     /* background: #ccc; */
 }
 #content > ul > li h1 {
@@ -57,4 +67,7 @@ header > .title > ul > li a:hover {
     color: #216d7b;
     font-weight: 800;
     font-size: 35px;
+}
+#content > ul > li img {
+    width: 100%;
 }
