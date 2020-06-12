@@ -1,7 +1,7 @@
 $(function(){
     $('.info').css('display', 'none')
 
-    $('.title > ul > li a').on('click', function(){
+    $('.title > ul > li').on('click', function(){
         $(cat_name).css('color', 'black')
         var cat_name = $(this).attr('class');
         var i = $(this).index()
